@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700" rel="stylesheet"> 
+  </head>
+  <style media="screen">
+    html, body {
+      margin: 0;
+      padding: 0; }
+    body.landing-screen {
+      background: white;
+      font-family: sans-serif;
+      line-height: 1.5em;
+      height: 100vh;
+      box-sizing: border-box;
+      font-size: 16px;
+      font-family: 'IBM Plex Sans', sans-serif; }
+
+    .landing-screen {
+      color: #1C1C1C; }
+      .landing-screen h1 {
+        color: #001630;
+        font-size: 1.6em;
+        line-height: 1.5em;
+        margin: 0; }
+      .landing-screen p {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin-bottom: 0; }
+      .landing-screen .button {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .8em 1em;
+        font-weight: bold;
+        text-align: center; }
+      .landing-screen .button.primary {
+        color: white;
+        background: #FF3838;
+        border-radius: 5px; }
+      .landing-screen .button.classic {
+        color: #356AAB; }
+      .landing-screen header {
+        height: 50vh;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: url("https://storage.googleapis.com/picta-prd-marketing/landing_screen_app/framed-canvas-test.png") no-repeat;
+        background-size: cover; }
+      .landing-screen main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        height: 50vh; }
+        .landing-screen main .titles {
+          text-align: center;
+          padding: 1em;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+        .landing-screen main footer {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          padding: 1em; }
+          .landing-screen main footer .button:nth-child(2) {
+            margin-top: .8em; }
+
+  </style>
+  <body class="landing-screen">
+    <header class="">
+    </header>
+    <main>
+      <div class="titles">
+        <h1 id="title">❤️ Happy Thanksgiving ❤️</h1>
+        <p>Are you Thankful for this memory?</p>
+      </div>
+      <footer>
+          <a href="#" class="button primary">Add to cart now</a>
+          <a href="#" class="button classic">ignore</a>
+      </footer>
+    </main>
+  </body>
+  <script type="text/javascript">
+    document.getElementById('title').innerHTML="❤️ Happy Thanksgiving from js ❤️"
+  </script>
+</html>

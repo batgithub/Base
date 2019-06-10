@@ -1,0 +1,62 @@
+button,
+a.button,
+.button-primary,
+.button-raw,
+.button-raw-icon {
+    padding: .4em .8em;
+    font-weight: $font-bold;
+    border-radius: $radius;
+    transition: $transition-duration;
+    cursor: pointer;
+}
+
+button,
+input[type="submit"] {
+    font-size: 1em;
+    border: none;
+}
+
+button.big,
+a.button.big {
+    padding: .8em 1.4em;
+}
+
+
+
+
+//BUTTON PRIMARY
+a.primary {
+    color: white;
+    background: $tertiary-color;
+
+    &:hover {
+        color: white;
+        background: darken($tertiary-color, 15)
+    }
+}
+
+
+a.primary.disable {
+    background: $gray-200 !important;
+    cursor: default;
+}
+
+
+//BUTTON RAW
+p a.button.raw {
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    &::before {
+        content: '';
+        height: 1.5em;
+        width: 1.5em;
+        background: url('https://storage.googleapis.com/picta-prd-marketing/Landing_screens/assets/arrow-right.svg');
+        margin-right: .4em;
+    }
+}
+
+a.raw:hover {
+    background: rgba(black, .03);
+}

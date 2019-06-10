@@ -1,0 +1,67 @@
+$font-family: 'IBM Plex Sans',
+Sans-serif;
+$font-bold: 600;
+$font-regular: 400;
+
+
+//colors
+$gray-900: #1C1C1C;
+$gray-800: #212121;
+$gray-300: #535353;
+$gray-250: #878787;
+$gray-200: #A9A9A9;
+$gray-100: #dbdbdb;
+$gray-50: #F0F4F5;
+$gray-perfec:#323232;
+
+
+
+$red-50: #FDE6E6;
+$red-200: #FF3838;
+$red-800: #960B0B;
+
+$blue-50: #DCECFF;
+$blue-100: #7cc0f1;
+$blue-300: #356AAB;
+$blue-600: #03254E;
+$blue-800: #101720;
+
+$green-100: #CDFFDD;
+$green-600: #61A176;
+
+
+
+
+//////////
+// colors theme Pictarine
+//////////
+
+$main-color: white;
+
+$secondary-color: $blue-300;
+$secondary-darken-color: $blue-600;
+$secondary-lighten-color: $blue-50;
+
+$tertiary-color: $red-200;
+
+//typo
+$dark-color: $gray-900;
+$medium-dark-color: $gray-800;
+$medium-color: $gray-300;
+$medium-light-color: $gray-100;
+$light-color:$gray-50;
+
+$error-color: $red-800;
+$error-background-color: $red-50;
+
+//Radius
+$small-radius: 3px;
+$radius: 5px;
+
+//box-shadow
+$small-shadow: 0px 2px 6px 0px rgba(black, .25);
+
+$big-shadow: 0px 7px 19px 0px rgba(0, 0, 0, 0.1);
+
+//transition
+$transition-duration: .3s;

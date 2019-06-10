@@ -1,0 +1,45 @@
+header {
+    padding: 1em;
+    img {
+        max-width: 160px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+main {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 1em;
+
+    .jobs {
+      
+            margin-top: 1em;
+       
+        .job {
+            border-top: solid 1px $medium-light-color;
+            padding: .8em 0;
+
+            &:last-child {
+                 border-bottom: solid 1px $medium-light-color;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                padding: 0;
+                font-size: 1.2em;
+
+                &::before {
+                    content: '';
+                    height: 1.5em;
+                    width: 1.5em;
+                    background: url('https://storage.googleapis.com/picta-prd-marketing/Landing_screens/assets/arrow-right.svg') no-repeat;
+                    margin-right: .4em;
+                    margin-top: .4em;
+                }
+            }
+        }
+    }
+}

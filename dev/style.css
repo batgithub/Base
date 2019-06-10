@@ -1,13 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600");
 html, body {
   margin: 0;
   padding: 0; }
 
-body {
+html {
+  font-size: 16px; }
+
+body,
+button {
+  font-size: 1em;
+  font-family: "IBM Plex Sans", Sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #212121; }
+
+h1,
+h2,
+h3,
+h4 {
+  color: #101720;
+  margin: 1.414em 0 0.5em;
+  font-weight: 400;
+  word-wrap: break-word; }
+
+h1 {
+  margin-top: 1rem;
+  font-size: 2.4em;
+  line-height: 1.2; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2; }
+
+h3 {
+  line-height: 1.5;
+  font-size: 1.4em; }
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5; }
+
+p {
+  margin-bottom: 1.3em;
+  font-size: 1em;
+  line-height: 1.5; }
+
+small + h2,
+small + h1 {
+  margin-top: .2rem; }
+
+small,
+.caption {
+  font-size: 0.8em;
+  color: #535353; }
+
+b {
+  font-weight: 600; }
+
+a {
+  color: #356AAB;
+  text-decoration: none; }
+  a:hover {
+    color: #4c83c7; }
+
+ul {
+  margin: 0; }
+
+p.error {
   display: flex;
-  flex-direction: column;
-  background: white; }
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #FDE6E6;
+  padding: 1em;
+  color: #960B0B;
+  border-radius: 3px; }
+
+button,
+a.button,
+.button-primary,
+.button-raw,
+.button-raw-icon {
+  padding: .4em .8em;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer; }
+
+button,
+input[type="submit"] {
+  font-size: 1em;
+  border: none; }
+
+button.big,
+a.button.big {
+  padding: .8em 1.4em; }
+
+a.primary {
+  color: white;
+  background: #FF3838; }
+  a.primary:hover {
+    color: white;
+    background: #eb0000; }
+
+a.primary.disable {
+  background: #A9A9A9 !important;
+  cursor: default; }
+
+p a.button.raw {
+  display: flex;
+  align-items: center;
+  padding: 0; }
+  p a.button.raw::before {
+    content: '';
+    height: 1.5em;
+    width: 1.5em;
+    background: url("https://storage.googleapis.com/picta-prd-marketing/Landing_screens/assets/arrow-right.svg");
+    margin-right: .4em; }
+
+a.raw:hover {
+  background: rgba(0, 0, 0, 0.03); }
+
+header {
+  padding: 1em; }
+  header img {
+    max-width: 160px; }
 
 img {
-  max-width: 500px; }
+  max-width: 100%; }
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 1em; }
+  main .jobs {
+    margin-top: 1em; }
+    main .jobs .job {
+      border-top: solid 1px #dbdbdb;
+      padding: .8em 0; }
+      main .jobs .job:last-child {
+        border-bottom: solid 1px #dbdbdb; }
+      main .jobs .job a {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        font-size: 1.2em; }
+        main .jobs .job a::before {
+          content: '';
+          height: 1.5em;
+          width: 1.5em;
+          background: url("https://storage.googleapis.com/picta-prd-marketing/Landing_screens/assets/arrow-right.svg") no-repeat;
+          margin-right: .4em;
+          margin-top: .4em; }
 
 /*# sourceMappingURL=style.css.map */

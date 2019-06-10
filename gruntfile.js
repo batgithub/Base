@@ -26,7 +26,7 @@ module.exports = function(grunt){
                 options: {
                     update: true,
                     sourcemap: 'none',
-                    style:'nested'
+
 
                 }
             }
@@ -81,7 +81,8 @@ module.exports = function(grunt){
 
         watch: {
 		       options: {
-      		        livereload: true,
+  		        livereload: true,
+              port: 9999,
 	        },
             html: {
                 files: ['**/*.html']
