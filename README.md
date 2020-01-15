@@ -15,3 +15,14 @@ The production folder is named '/docs' to be recognize as the source folder for 
 
 ## install
 `npm install`
+
+
+
+Pour déployer il faut créer un fichier secret.json
+
+```json
+{
+  "host": "user@host",
+  "dest": "path"
+}
+```
